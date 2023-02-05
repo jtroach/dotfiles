@@ -1,2 +1,2 @@
 # dotfiles
-i use a computer
+i use a computer.

@@ -1,0 +1,7 @@
+super + Return
+	alacritty
+
+super + p
+	dmenu_run
+
+

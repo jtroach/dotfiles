@@ -1,0 +1,4 @@
+set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
+
+cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
+

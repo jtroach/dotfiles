@@ -13,7 +13,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " }{ %battery% | %multicpu% | %memory% | %date% | "
+   , template = " %XMonadLog% }{ %battery% | %multicpu% | %memory% | %date% | "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -77,5 +77,7 @@ Config {
         -- time and date indicator 
         --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
         , Run Date           "<fc=#ABABAB>%F (%a) %T</fc>" "date" 10
+
+	, Run XMonadLog
         ]
    }

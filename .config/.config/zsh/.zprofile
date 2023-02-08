@@ -7,6 +7,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export HISTFILE="${XDG_STATE_HOME}/bash/history"
 export LESSHISTFILE="${XDG_STATE_HOME}/less/history"
 export XAUTHORITY="${XDG_RUNTIME_DIR}/Xauthority"
+export GTK_THEME=Arc:dark
 
 # Aliases
 alias kms='startx ~/.config/x11/xinitrc'

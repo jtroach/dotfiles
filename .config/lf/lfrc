@@ -1,4 +1,25 @@
+
+# Variables
+set shellopts '-eu'
 set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
 
+
+# Commands
 cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
 
+cmd delete ${{
+	clear; tput cup $(($(tput lines)/3)); tput bold
+	set -f
+	printf "%s\n\t" "$fx"
+	printf "delete?[y/N]"
+	read ans
+	[ $ans = "y" ] && rm -rf -- $fx
+}}
+
+# Mappings
+map <c-n> push :mkdir<space>
+map <c-s> set hidden!
+map o &mimeopen "$f"
+map O $mimeopen --ask "$f"
+map <enter> shell
+map D delete

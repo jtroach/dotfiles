@@ -6,14 +6,14 @@ Config {
                            , "xft:Font Awesome 6 Free Solid:pixelsize=12"
                            , "xft:Font Awesome 6 Brands:pixelsize=12"
                            ] 
-   , bgColor =      "#282c34"
-   , fgColor =      "#ff6c6b"
+   , bgColor =      "#282a36"
+   , fgColor =      "#f8f8f2"
    , position =     Top
 
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " %XMonadLog% }{ %battery% | %multicpu% | %memory% | %date% | "
+   , template = " %XMonadLog% }{  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#f1fa8c><fc=#f1fa8c>%cpu%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ff5555><fc=#ff5555>%memory%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#caa9fa><fc=#caa9fa>%date%</fc></box>  | "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -23,60 +23,19 @@ Config {
    , pickBroadest =     False   -- choose widest display (multi-monitor)
    , persistent =       True    -- enable/disable hiding (True = disabled)
 
-   -- plugins
-   --   Numbers can be automatically colored according to their value. xmobar
-   --   decides color based on a three-tier/two-cutoff system, controlled by
-   --   command options:
-   --     --Low sets the low cutoff
-   --     --High sets the high cutoff
-   --
-   --     --low sets the color below --Low cutoff
-   --     --normal sets the color between --Low and --High cutoffs
-   --     --High sets the color above --High cutoff
-   --
-   --   The --template option controls how the plugin is displayed. Text
-   --   color can be set by enclosing in <fc></fc> tags. For more details
-   --   see http://projects.haskell.org/xmobar/#system-monitor-plugins.
    , commands = [ 
 
         -- cpu activity monitor
-        Run MultiCpu       [ "--template" , "Cpu: <total0>%|<total1>%"
-                             , "--Low"      , "50"         -- units: %
-                             , "--High"     , "85"         -- units: %
-                             , "--low"      , "darkgreen"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
-                             ] 10
-                          
+	  Run Cpu ["-t", "<fn=2>\xf108</fn>  cpu: (<total>%)"] 20       
+
         -- memory usage monitor
-        , Run Memory         [ "--template" ,"Mem: <usedratio>%"
-                             , "--Low"      , "20"        -- units: %
-                             , "--High"     , "90"        -- units: %
-                             , "--low"      , "darkgreen"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
-                             ] 10
+	, Run Memory ["-t", "<fn=2>\xf233</fn>  mem: <used>M (<usedratio>%)"] 20
 
         -- battery monitor
-        , Run Battery        [ "--template" , "Batt: <acstatus>"
-                             , "--Low"      , "10"        -- units: %
-                             , "--High"     , "80"        -- units: %
-                             , "--low"      , "darkred"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkgreen"
-
-                             , "--" -- battery specific options
-                                       -- discharging status
-                                       , "-o"	, "<left>% (<timeleft>)"
-                                       -- AC "on" status
-                                       , "-O"	, "<fc=#dAA520>Charging</fc>"
-                                       -- charged status
-                                       , "-i"	, "<fc=#006000>Charged</fc>"
-                             ] 50
+        , Run BatteryP ["BAT0"] ["-t", "<fn=2>\xf242</fn> <acstatus><watts> (<left>%)"] 360
 
         -- time and date indicator 
-        --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
-        , Run Date           "<fc=#ABABAB>%F (%a) %T</fc>" "date" 10
+        , Run Date "<fn=2>\xf017</fn>  %b %d %Y - (%H:%M) " "date" 50
 
 	, Run XMonadLog
         ]

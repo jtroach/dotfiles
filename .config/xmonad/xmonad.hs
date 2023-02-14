@@ -1,22 +1,24 @@
--- Base
+-------------------------------------------------------------------------
+-- IMPORTS
+--
 import XMonad
 import System.Exit
 import qualified XMonad.StackSet as W
 
--- Data
 import Data.Monoid
 import qualified Data.Map        as M
 
--- Hooks
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
 
--- Utils
 import XMonad.Util.SpawnOnce
 import XMonad.Util.Loggers
 
+-------------------------------------------------------------------------
+-- DEFAULTS
+--
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
 myFocusFollowsMouse = True
@@ -36,8 +38,8 @@ myModMask       = mod4Mask
 myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 
 -- Window border colors
-myNormalBorderColor  = "#282c34"
-myFocusedBorderColor = "#46d9ff"
+myNormalBorderColor  = "#282a36"
+myFocusedBorderColor = "#9aedfe"
 
 ------------------------------------------------------------------------
 -- KEY BINDINGS 
@@ -117,7 +119,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
 
 ------------------------------------------------------------------------
--- Mouse bindings: default actions bound to mouse events
+-- MOUSE BINDINGS
 --
 myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 
@@ -136,15 +138,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
     ]
 
 ------------------------------------------------------------------------
--- Layouts:
-
--- You can specify and transform your layouts by modifying these values.
--- If you change layout bindings be sure to use 'mod-shift-space' after
--- restarting (with 'mod-q') to reset your layout state to the new
--- defaults, as xmonad preserves your old layout settings by default.
---
--- The available layouts.  Note that each layout is separated by |||,
--- which denotes layout choice.
+-- LAYOUTS
 --
 myLayout = avoidStruts (tiled ||| Mirror tiled ||| Full)
   where
@@ -161,19 +155,7 @@ myLayout = avoidStruts (tiled ||| Mirror tiled ||| Full)
      delta   = 3/100
 
 ------------------------------------------------------------------------
--- Window rules:
-
--- Execute arbitrary actions and WindowSet manipulations when managing
--- a new window. You can use this to, for example, always float a
--- particular program, or have a client always appear on a particular
--- workspace.
---
--- To find the property name associated with a program, use
--- > xprop | grep WM_CLASS
--- and click on the client you're interested in.
---
--- To match on the WM_NAME, you can use 'title' in the same way that
--- 'className' and 'resource' are used below.
+-- WINDOW RULES
 --
 myManageHook = composeAll
     [ className =? "MPlayer"        --> doFloat
@@ -201,10 +183,12 @@ myEventHook = mempty
 myLogHook = return ()
 
 ------------------------------------------------------------------------
--- Xmobar PP settings
+-- XMOBAR PP
+--
 myXmobarPP :: PP
 myXmobarPP = def
     { ppSep             = magenta " • "
+    , ppVisible         = white
     , ppTitleSanitize   = xmobarStrip
     , ppCurrent         = wrap " " "" . xmobarBorder "Top" "#8be9fd" 2
     , ppHidden          = white . wrap " " ""
@@ -231,19 +215,18 @@ myXmobarPP = def
     lowWhite = xmobarColor "#bbbbbb" ""
 
 ------------------------------------------------------------------------
--- Startup hook
-
+-- STARTUP HOOK
+--
 -- Perform an arbitrary action each time xmonad starts or is restarted
-myStartupHook = do
-	spawnOnce "autostart"
+myStartupHook = return ()
 
 ------------------------------------------------------------------------
--- Now run xmonad with all the defaults we set up.
-
+-- MAIN FUNCTION
+--
 -- Run xmonad with the settings you specify. No need to modify this.
 main = xmonad 
 	$ docks 
-	$ withEasySB (statusBarProp "xmobar ~/.config/xmobar/xmobarrc" (pure def)) defToggleStrutsKey
+	$ withEasySB (statusBarProp "" (pure def)) defToggleStrutsKey
 	$ defaults
 
 -- Collection of defaults defined in this config.

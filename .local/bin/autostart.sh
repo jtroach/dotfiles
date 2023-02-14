@@ -3,12 +3,13 @@
 # Picom (compositor)
 picom &
 # Feh (Wallpaper)
-feh --bg-fill --no-fehbg $HOME/pic/wallpaper/arewestillyoung.png &
+feh --bg-fill --no-fehbg $HOME/pic/wallpaper/vessels2.jpg &
 # Trayer (systray)
 #trayer &
 # NMApplet
-nm-applet &
+#nm-applet &
 # sxhkd (hotkey daemon)
 sxhkd &
-#xmobar (panel)
-xmobar &
+#xmobar (both screens)
+xmobar -x 0 &
+xmobar -x 1 &

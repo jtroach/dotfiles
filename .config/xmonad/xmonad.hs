@@ -16,6 +16,8 @@ import XMonad.Hooks.StatusBar.PP
 import XMonad.Util.SpawnOnce
 import XMonad.Util.Loggers
 
+import Colors.Dracula
+
 -------------------------------------------------------------------------
 -- DEFAULTS
 --
@@ -35,7 +37,7 @@ myModMask       = mod4Mask
 
 -- Workspaces (just #s 1..9)
 -- > workspaces = ["web", "irc", "code" ] ++ map show [4..9]
-myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
+myWorkspaces    = [" 1 "," 2 "," 3 "," 4 "," 5 "," 6 "," 7 "," 8 "," 9 "]
 
 -- Window border colors
 myNormalBorderColor  = "#282a36"
@@ -187,32 +189,17 @@ myLogHook = return ()
 --
 myXmobarPP :: PP
 myXmobarPP = def
-    { ppSep             = magenta " • "
-    , ppVisible         = white
-    , ppTitleSanitize   = xmobarStrip
-    , ppCurrent         = wrap " " "" . xmobarBorder "Top" "#8be9fd" 2
-    , ppHidden          = white . wrap " " ""
-    , ppHiddenNoWindows = lowWhite . wrap " " ""
-    , ppUrgent          = red . wrap (yellow "!") (yellow "!")
-    , ppOrder           = \[ws, l, _, wins] -> [ws, l, wins]
-    , ppExtras          = [logTitles formatFocused formatUnfocused]
+    { ppSep = "  |  "
+    , ppCurrent = xmobarColor color06 "" . wrap
+                ("<box type=Bottom width=2 mb=2 color=" ++ color06 ++ ">") "</box>"
+    , ppHidden = xmobarColor color06 ""  
+    , ppVisible = xmobarColor color05 "" . wrap
+                ("<box type=Top width=2 mt=1 color=" ++ color05 ++ ">") "</box>"
+    , ppTitle = xmobarColor color16 "" . shorten 60
+    , ppUrgent = xmobarColor color02 "" . wrap "!" "!"
+    , ppOrder  = \(ws:l:t) -> [ws,l]++t
     }
-  where
-    formatFocused   = wrap (white    "[") (white    "]") . magenta . ppWindow
-    formatUnfocused = wrap (lowWhite "[") (lowWhite "]") . blue    . ppWindow
 
-    -- | Windows should have *some* title, which should not not exceed a
-    -- sane length.
-    ppWindow :: String -> String
-    ppWindow = xmobarRaw . (\w -> if null w then "untitled" else w) . shorten 30
-
-    blue, lowWhite, magenta, red, white, yellow :: String -> String
-    magenta  = xmobarColor "#ff79c6" ""
-    blue     = xmobarColor "#bd93f9" ""
-    white    = xmobarColor "#f8f8f2" ""
-    yellow   = xmobarColor "#f1fa8c" ""
-    red      = xmobarColor "#ff5555" ""
-    lowWhite = xmobarColor "#bbbbbb" ""
 
 ------------------------------------------------------------------------
 -- STARTUP HOOK
@@ -226,7 +213,7 @@ myStartupHook = return ()
 -- Run xmonad with the settings you specify. No need to modify this.
 main = xmonad 
 	$ docks 
-	$ withEasySB (statusBarProp "" (pure def)) defToggleStrutsKey
+	$ withEasySB (statusBarProp "" (pure myXmobarPP)) defToggleStrutsKey
 	$ defaults
 
 -- Collection of defaults defined in this config.

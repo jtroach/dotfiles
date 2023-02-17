@@ -192,7 +192,7 @@ myXmobarPP = def
     { ppSep = "  |  "
     , ppCurrent = xmobarColor color06 "" . wrap
                 ("<box type=Bottom width=2 mb=2 color=" ++ color06 ++ ">") "</box>"
-    , ppHidden = xmobarColor color06 ""  
+    , ppHidden = xmobarColor color08 ""  
     , ppVisible = xmobarColor color05 "" . wrap
                 ("<box type=Top width=2 mt=1 color=" ++ color05 ++ ">") "</box>"
     , ppTitle = xmobarColor color16 "" . shorten 60

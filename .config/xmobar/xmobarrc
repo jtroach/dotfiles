@@ -13,7 +13,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " %XMonadLog% }{  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#f1fa8c><fc=#f1fa8c>%cpu%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ff5555><fc=#ff5555>%memory%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#caa9fa><fc=#caa9fa>%date%</fc></box>  | "
+   , template = " %XMonadLog% }{  %mpd%  |  <box type=Bottom width=2 mb=2 color=#8be9fd><fc=#8be9fd>%volicon% %pulsevol%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#f1fa8c><fc=#f1fa8c>%cpu%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ff5555><fc=#ff5555>%memory%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#caa9fa><fc=#caa9fa>%date%</fc></box>  | "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -25,8 +25,13 @@ Config {
 
    , commands = [ 
 
+   	-- music monitor
+  	  Run MPD ["-t",
+           "<composer> <title> (<album>) <track>/<plength> <statei> [<flags>]",
+           "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
+
         -- cpu activity monitor
-	  Run Cpu ["-t", "<fn=2>\xf108</fn>  cpu: (<total>%)"] 20       
+	, Run Cpu ["-t", "<fn=2>\xf108</fn>  cpu: (<total>%)"] 20       
 
         -- memory usage monitor
 	, Run Memory ["-t", "<fn=2>\xf233</fn>  mem: <used>M (<usedratio>%)"] 20
@@ -36,6 +41,12 @@ Config {
 
         -- time and date indicator 
         , Run Date "<fn=2>\xf017</fn>  %b %d %Y - (%H:%M) " "date" 50
+	
+	-- volume icon
+	, Run Com "echo" ["<fn=2>\xf028</fn>"] "volicon" 3600
+
+	-- volume monitor
+	, Run Com ".local/bin/pulsevol" [] "pulsevol" 20
 
 	, Run XMonadLog
         ]

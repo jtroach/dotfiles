@@ -1,7 +1,8 @@
 super + Return
 	alacritty
 
-super + p
+super + o
 	rofi -show drun
 
-
+super + p
+	passmenu

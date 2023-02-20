@@ -1,0 +1,4 @@
+#!/bin/sh
+
+vol="$(pactl get-sink-volume @DEFAULT_SINK@ | cut -d ' ' -f 6)"
+echo -e "$vol"

@@ -126,3 +126,319 @@ writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - To Dust [Monste
 writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - To Dust [Monstercat NL Remake] [_KIzTcu45as].opus' as it's not a positive integer
 writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - You Rise [Monstercat Release] [Ht142FXjA40].opus' as it's not a positive integer
 writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - You Rise [Monstercat Release] [Ht142FXjA40].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[DnB] - Rootkit - Too Late [Monstercat Release] [ZmhwOS11ciM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[DnB] - Rootkit - Too Late [Monstercat Release] [ZmhwOS11ciM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Drumstep] - Rootkit - Against the Sun (feat. Anna Yvette) [Monstercat Release] [NLukRvKWBeA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Drumstep] - Rootkit - Against the Sun (feat. Anna Yvette) [Monstercat Release] [NLukRvKWBeA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Drumstep] - Rootkit - Do It [Monstercat Release] [QBXrhgg9s0c].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Drumstep] - Rootkit - Do It [Monstercat Release] [QBXrhgg9s0c].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Electronic] - Loosid - Clouds (feat. Raycee Jones) [Monstercat Release] [18tGkzfPbmA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Electronic] - Loosid - Clouds (feat. Raycee Jones) [Monstercat Release] [18tGkzfPbmA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Electronic] - Rootkit - Carry Me Away [Monstercat Release] [6N1uSjS3UFU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Electronic] - Rootkit - Carry Me Away [Monstercat Release] [6N1uSjS3UFU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Electronic] - WRLD - Drowning (feat. Ehiorobo) [Monstercat EP Release] [CrDw3hUl0Ko].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Electronic] - WRLD - Drowning (feat. Ehiorobo) [Monstercat EP Release] [CrDw3hUl0Ko].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Future Bass] - Astronaut - Champions (feat. Harry Brooks Jnr) (WRLD Remix) [Monstercat Release] [iSpOzYhhi7k].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Future Bass] - Astronaut - Champions (feat. Harry Brooks Jnr) (WRLD Remix) [Monstercat Release] [iSpOzYhhi7k].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Future Bass] - Laszlo x WRLD - You & Me [Monstercat Release] [JhIEsQ15sSI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Future Bass] - Laszlo x WRLD - You & Me [Monstercat Release] [JhIEsQ15sSI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Future Bass] - WRLD - Orbit (feat. Richard Caddock) [Monstercat Release] [dpciZ0D-Hhc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Future Bass] - WRLD - Orbit (feat. Richard Caddock) [Monstercat Release] [dpciZ0D-Hhc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Future Bass] - WRLD - Triumph [Monstercat Release] [5YxVMyeIGvA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Future Bass] - WRLD - Triumph [Monstercat Release] [5YxVMyeIGvA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[House] - Loosid - Talisman (feat. Raycee Jones & Lyon Hart) [Monstercat Release] [ivzfx4i-Qc8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[House] - Loosid - Talisman (feat. Raycee Jones & Lyon Hart) [Monstercat Release] [ivzfx4i-Qc8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[House] - Rootkit - Real Love (feat. Danyka Nadeau) [Monstercat Release] [OilPvUo2vac].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[House] - Rootkit - Real Love (feat. Danyka Nadeau) [Monstercat Release] [OilPvUo2vac].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Indie Dance] - WRLD - Awake (feat. Colordrive) [Monstercat EP Release] [7fugVGRFqe0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Indie Dance] - WRLD - Awake (feat. Colordrive) [Monstercat EP Release] [7fugVGRFqe0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Indie Dance] - WRLD - Fighter [Monstercat Release] [HgRuorGgMWk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Indie Dance] - WRLD - Fighter [Monstercat Release] [HgRuorGgMWk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Indie Dance] - WRLD - Little Too Close (feat. Veronika Redd) [Monstercat EP Release] [CQFGAmiWQmg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Indie Dance] - WRLD - Little Too Close (feat. Veronika Redd) [Monstercat EP Release] [CQFGAmiWQmg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Indie Dance] - WRLD & Richard Caddock - See You [Monstercat Release] [BGPGzDvAnDs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Indie Dance] - WRLD & Richard Caddock - See You [Monstercat Release] [BGPGzDvAnDs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/[Nu Disco] - WRLD - Chase It (feat. Savoi) [Monstercat EP Release] [MsFNDf3fX1A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/[Nu Disco] - WRLD - Chase It (feat. Savoi) [Monstercat EP Release] [MsFNDf3fX1A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Aero Chord - Shadows (feat. Nevve) [Monstercat Release] [6457bpRtA80].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Aero Chord - Shadows (feat. Nevve) [Monstercat Release] [6457bpRtA80].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Beautiful Sky feat. Daniel Hanson.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Beautiful Sky feat. Daniel Hanson.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Divine.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Divine.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Divinorum feat. Nori.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Divinorum feat. Nori.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Dragonfly feat. Evoke.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Dragonfly feat. Evoke.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Drink Me feat. Jess.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Drink Me feat. Jess.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Eden (feat. Danyka Nadeau).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Eden (feat. Danyka Nadeau).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Follow You (feat. Danyka Nadeau).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Follow You (feat. Danyka Nadeau).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Guardians (feat. Fiora).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Guardians (feat. Fiora).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Infinite Wings feat. Ashley Apollodor.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Infinite Wings feat. Ashley Apollodor.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Lazerfunk feat. Nasty Purple.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Lazerfunk feat. Nasty Purple.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - Mesmerize feat. Bella Musser.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - Mesmerize feat. Bella Musser.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 - The Void.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 - The Void.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 & Tasha Baxter - Stargate.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 & Tasha Baxter - Stargate.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 feat Q'AILA - Any Longer.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 feat Q'AILA - Any Longer.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Au5 feat Q'AILA - Hit Rewind.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Au5 feat Q'AILA - Hit Rewind.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - 2U [Monstercat Release] [p1QYp0am0jE].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - 2U [Monstercat Release] [p1QYp0am0jE].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - 4ME [a_8xA9471Jo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - 4ME [a_8xA9471Jo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Clarity [Monstercat Release] [jcvCMZUgPxc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Clarity [Monstercat Release] [jcvCMZUgPxc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Destroy Me [Monstercat Release] [sjVJnLV4m00].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Destroy Me [Monstercat Release] [sjVJnLV4m00].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Disarray [Monstercat Release] [Ak6ynwcCv1Q].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Disarray [Monstercat Release] [Ak6ynwcCv1Q].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Fly [Monstercat Release] [pkOIWhOrbn4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Fly [Monstercat Release] [pkOIWhOrbn4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Just Dance [Monstercat Release] [tln6ktrwC94].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Just Dance [Monstercat Release] [tln6ktrwC94].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - New Dawn [Monstercat Release] [nOgw9m_n-o4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - New Dawn [Monstercat Release] [nOgw9m_n-o4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Paradise [Monstercat Release] [l78uz1HIOe4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Paradise [Monstercat Release] [l78uz1HIOe4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Riddle [Monstercat Release] [ftshNCG_RPk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Riddle [Monstercat Release] [ftshNCG_RPk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Silhouette (feat. Skyelle) [Monstercat Release] [GMb02tAqDRM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Silhouette (feat. Skyelle) [Monstercat Release] [GMb02tAqDRM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Somewhere New [Monstercat Release] [s16W_Yez0d8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Somewhere New [Monstercat Release] [s16W_Yez0d8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer - Voyage (feat. Savoi) [Monstercat Release] [cIseaPTGCRU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer - Voyage (feat. Savoi) [Monstercat Release] [cIseaPTGCRU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer & Danyka Nadeau - Chasing Clouds [Monstercat Release] [E7930iaAcfc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer & Danyka Nadeau - Chasing Clouds [Monstercat Release] [E7930iaAcfc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bad Computer & David Feldman - Calling Us (feat. Jordan Grace) [Monstercat Release] [KGxz9HRCQho].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bad Computer & David Feldman - Calling Us (feat. Jordan Grace) [Monstercat Release] [KGxz9HRCQho].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Blackwater [xwa3KLCcJJY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Blackwater [xwa3KLCcJJY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bossfight - Badmash [Monstercat Release] [36hgL7bPDnk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bossfight - Badmash [Monstercat Release] [36hgL7bPDnk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bossfight - Charge [ZxHrcIkB90k].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bossfight - Charge [ZxHrcIkB90k].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/BOSSFIGHT - Endgame [mOqCLpXbqkE].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/BOSSFIGHT - Endgame [mOqCLpXbqkE].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/BOSSFIGHT - Fake [HTNUm5i9chM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/BOSSFIGHT - Fake [HTNUm5i9chM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/BOSSFIGHT - Grit [t_dsCpJeX88].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/BOSSFIGHT - Grit [t_dsCpJeX88].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bossfight - No Sleep [Co4bcMth74I].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bossfight - No Sleep [Co4bcMth74I].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bossfight - Overdose (feat. Philip Strand) [Monstercat Release] [bV68_Vy0Uis].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bossfight - Overdose (feat. Philip Strand) [Monstercat Release] [bV68_Vy0Uis].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/BOSSFIGHT - The Pit [ju-QUBqUsgQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/BOSSFIGHT - The Pit [ju-QUBqUsgQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/BOSSFIGHT - Toxic [jMM-RWyvEsU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/BOSSFIGHT - Toxic [jMM-RWyvEsU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Bossfight - U Got Me [7FM9XC6wLkI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Bossfight - U Got Me [7FM9XC6wLkI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/BOSSFIGHT - Warp [L9KCx0p-Sg0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/BOSSFIGHT - Warp [L9KCx0p-Sg0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/CloudNone - From Here [Monstercat Release] [AoCxnBsyKT0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/CloudNone - From Here [Monstercat Release] [AoCxnBsyKT0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Crystal Skies - Requiem.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Crystal Skies - Requiem.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Darby - All Of A Sudden.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Darby - All Of A Sudden.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Dion Timmer - Shiawase [Monstercat Release] [N-V3zqvtbCM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Dion Timmer - Shiawase [Monstercat Release] [N-V3zqvtbCM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Dirtyphonics x RIOT - Got Your Love [Monstercat Release] [ldQt-2ZRRTQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Dirtyphonics x RIOT - Got Your Love [Monstercat Release] [ldQt-2ZRRTQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Disorder (Rebirth) [ON_1T-tEWfs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Disorder (Rebirth) [ON_1T-tEWfs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Ephixa & Bossfight - Subside [0U1qfCfRzF0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Ephixa & Bossfight - Subside [0U1qfCfRzF0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Are We Still Young (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Are We Still Young (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Castaway (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Castaway (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Color (feat. Juneau).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Color (feat. Juneau).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Constellations (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Constellations (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Starship.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Starship.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - The Edge (feat. Nevve).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - The Edge (feat. Nevve).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Wake Up (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Wake Up (feat. Jessi Mason).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Weapon (feat. Baum).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Weapon (feat. Baum).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Wishes (feat. McCall).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Wishes (feat. McCall).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant - Won't Give Up [Monstercat Release] [V2kvvQNuvRM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant - Won't Give Up [Monstercat Release] [V2kvvQNuvRM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Grant, Anevo & Conro - Without You (feat. Victoria Zaro).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Grant, Anevo & Conro - Without You (feat. Victoria Zaro).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Holly & Loosid - Fire Flower [Monstercat Release] [s35RIQu-9HM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Holly & Loosid - Fire Flower [Monstercat Release] [s35RIQu-9HM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Jason Ross & Seven Lions with Emilie Brandt - Known You Before.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Jason Ross & Seven Lions with Emilie Brandt - Known You Before.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Kaskade - Solid Ground [Monstercat Release] [I0hgXEJNp6k].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Kaskade - Solid Ground [Monstercat Release] [I0hgXEJNp6k].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Kaskade & WILL K - Flip Reset [Monstercat Release] [c_L6dX-zL0A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Kaskade & WILL K - Flip Reset [Monstercat Release] [c_L6dX-zL0A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Kill Me With Silence (with Medyk).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Kill Me With Silence (with Medyk).opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/KUURO - Afraid of the Dark (feat. Sophiya) [Monstercat Lyric Video] [_7AAml9gHXU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/KUURO - Afraid of the Dark (feat. Sophiya) [Monstercat Lyric Video] [_7AAml9gHXU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Loosid – I Want You [cJqnAVED5aA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Loosid – I Want You [cJqnAVED5aA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Love Is Gone [M_yentacbr4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Love Is Gone [M_yentacbr4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Mazare & RUNN - Where Do We Go [Monstercat Release] [-GpKlwXvxI4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Mazare & RUNN - Where Do We Go [Monstercat Release] [-GpKlwXvxI4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Monster [FuRcxLu6DNI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Monster [FuRcxLu6DNI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/MYRNE & Grant - Fault (feat. McCall) [Monstercat Release] [y91hSD1csl4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/MYRNE & Grant - Fault (feat. McCall) [Monstercat Release] [y91hSD1csl4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Nothing Hurts Like Goodbye (with Kiiara) [xnP3XMMnq9Y].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Nothing Hurts Like Goodbye (with Kiiara) [xnP3XMMnq9Y].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Pantheon [Mega Collab] - Blastoyz, Dimibo, Jason Ross, Kill The Noise, Seven Lions, Trivecta & Wooli [hA4QNa4uE4o].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Pantheon [Mega Collab] - Blastoyz, Dimibo, Jason Ross, Kill The Noise, Seven Lions, Trivecta & Wooli [hA4QNa4uE4o].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Pegboard Nerds & Bossfight - Powerplay [Monstercat Release] [O1FaCI4L-64].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Pegboard Nerds & Bossfight - Powerplay [Monstercat Release] [O1FaCI4L-64].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/RIOT - Aiwa [Monstercat Release] [lHKuPOlq9c8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/RIOT - Aiwa [Monstercat Release] [lHKuPOlq9c8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/RIOT - Disorder [Monstercat Release] [h-hY5T5R1dA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/RIOT - Disorder [Monstercat Release] [h-hY5T5R1dA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/RIOT - Jungle Fury [Monstercat Release] [mype6RcMMmY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/RIOT - Jungle Fury [Monstercat Release] [mype6RcMMmY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/RIOT - Overkill [Monstercat Release] [A8pOVirjGF0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/RIOT - Overkill [Monstercat Release] [A8pOVirjGF0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/RIOT - The Mob [Monstercat Release] [WUJK8jQghI4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/RIOT - The Mob [Monstercat Release] [WUJK8jQghI4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Rogue - Badlands [Monstercat Release] [7dQCrwBjbMk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Rogue - Badlands [Monstercat Release] [7dQCrwBjbMk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Rogue - Fortress [Monstercat Release] [HOkC0hVtA2o].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Rogue - Fortress [Monstercat Release] [HOkC0hVtA2o].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Rootkit - Dreams [IWt18hpGWpg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Rootkit - Dreams [IWt18hpGWpg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Rootkit - Oh You [Monstercat Release] [9WfeVBiTkSY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Rootkit - Oh You [Monstercat Release] [9WfeVBiTkSY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Rootkit - Taking Me Higher [Monstercat Release] [UKT5_l324wg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Rootkit - Taking Me Higher [Monstercat Release] [UKT5_l324wg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Rootkit - Voyage [Monstercat Release] [ifJWe0PoYKw].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Rootkit - Voyage [Monstercat Release] [ifJWe0PoYKw].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/San Holo - Light (Grant Remix) [ZRx0wicZBSQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/San Holo - Light (Grant Remix) [ZRx0wicZBSQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/San Holo - Light (Loosid Remix) [rrpARU2mH4A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/San Holo - Light (Loosid Remix) [rrpARU2mH4A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/San Holo - Light (WRLD Remix) [NQSjzVMBwNs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/San Holo - Light (WRLD Remix) [NQSjzVMBwNs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/San Holo - One Thing (Grant Remix) [DWDbJvcygjY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/San Holo - One Thing (Grant Remix) [DWDbJvcygjY].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Savoy - Let You Go [Monstercat Release] [VucZksgrtAM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Savoy - Let You Go [Monstercat Release] [VucZksgrtAM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Seven Lions & Blastoyz - After Dark (ft. Fiora) [Ophelia Records] [Q5drTYTEHBo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Seven Lions & Blastoyz - After Dark (ft. Fiora) [Ophelia Records] [Q5drTYTEHBo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Seven Lions & Jason Ross - Ocean (Feat. Jonathan Mendelsohn) (Grant Remix) [V5ISygdKaDk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Seven Lions & Jason Ross - Ocean (Feat. Jonathan Mendelsohn) (Grant Remix) [V5ISygdKaDk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Seven Lions & Jason Ross - Ocean (Feat. Jonathan Mendelsohn) [SyN8bxFwuq4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Seven Lions & Jason Ross - Ocean (Feat. Jonathan Mendelsohn) [SyN8bxFwuq4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Seven Lions, Au5 & Crystal Skies - Remember ｜ Ophelia Records [1CzO4p8ksg4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Seven Lions, Au5 & Crystal Skies - Remember ｜ Ophelia Records [1CzO4p8ksg4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Seven Lions, Excision, & Wooli w⧸ Dylan Matthew - Another Me [Official Lyric Video] [I7pZR9hZ9XU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Seven Lions, Excision, & Wooli w⧸ Dylan Matthew - Another Me [Official Lyric Video] [I7pZR9hZ9XU].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Seven Lions, Wooli & Amidy - Shadows ｜ Ophelia Records [q-gwOZAiD1g].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Seven Lions, Wooli & Amidy - Shadows ｜ Ophelia Records [q-gwOZAiD1g].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER - Halfway Down (with Ashley Drake) [qukzIFmsWQs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER - Halfway Down (with Ashley Drake) [qukzIFmsWQs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER - Replay (with Dylan Matthew) [GGDgnPm8yB0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER - Replay (with Dylan Matthew) [GGDgnPm8yB0].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER - Walk On Water (Lyrics) feat. RØRY & Dylan Matthew [tZENmx_HVkg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER - Walk On Water (Lyrics) feat. RØRY & Dylan Matthew [tZENmx_HVkg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER & Au5 - Anywhere ft. shYbeast & PLYA [Ar1-fZ8wJzg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER & Au5 - Anywhere ft. shYbeast & PLYA [Ar1-fZ8wJzg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER & FAIRLANE - HURTS SOMETIMES FT. JONATHAN MENDELSOHN [NFILwTtg2H8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER & FAIRLANE - HURTS SOMETIMES FT. JONATHAN MENDELSOHN [NFILwTtg2H8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER & GANJA WHITE NIGHT - MISS YOU [wNKuE0tRYPg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER & GANJA WHITE NIGHT - MISS YOU [wNKuE0tRYPg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER & RIOT - You Don't Even Know Me [_Fn8tJWhQUA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER & RIOT - You Don't Even Know Me [_Fn8tJWhQUA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER & SUBTRONICS - GRAVITY FT. JT ROACH [y8RGCYKHQAg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER & SUBTRONICS - GRAVITY FT. JT ROACH [y8RGCYKHQAg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER & SYNYMATA - WHEN I'M WITH YOU FT. NEVERWAVES [a5uRyaThmLo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER & SYNYMATA - WHEN I'M WITH YOU FT. NEVERWAVES [a5uRyaThmLo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/SLANDER and if found- “Getting Late” Feat. Danni Carra (Official Audio) [faJYyEQA70w].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/SLANDER and if found- “Getting Late” Feat. Danni Carra (Official Audio) [faJYyEQA70w].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slippy - Could, Couldn't [-tXKaeyUl8w].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slippy - Could, Couldn't [-tXKaeyUl8w].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slippy - Dying [Monstercat Release] [zFH1JODmvGM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slippy - Dying [Monstercat Release] [zFH1JODmvGM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slippy - Form [2Js2soSzfHc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slippy - Form [2Js2soSzfHc].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slippy - Limitless [Monstercat Release] [JR0_TyNnFbs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slippy - Limitless [Monstercat Release] [JR0_TyNnFbs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slippy & Ace Aura - Falling For You ｜ Bassrush Records [dku4ME2MEcQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slippy & Ace Aura - Falling For You ｜ Bassrush Records [dku4ME2MEcQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slippy & Blosso - Horizon (Back To Life) (feat. GLNNA) [fKc9TDpJCN4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slippy & Blosso - Horizon (Back To Life) (feat. GLNNA) [fKc9TDpJCN4].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slippy & Danyka Nadeau - Resonate [Monstercat Release] [H8bgjgZu3Ww].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slippy & Danyka Nadeau - Resonate [Monstercat Release] [H8bgjgZu3Ww].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Slushii - All I Need [Monstercat Release] [Y3m3HiZvXsM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Slushii - All I Need [Monstercat Release] [Y3m3HiZvXsM].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Stephen Walking - Glide [Monstercat Release] [VL3mPTaFFak].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Stephen Walking - Glide [Monstercat Release] [VL3mPTaFFak].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Take That (Bonus Track) [NpNYYkXxT-A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Take That (Bonus Track) [NpNYYkXxT-A].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Tristam - Questions [Monstercat Release] [LeVmlVQ9uQI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Tristam - Questions [Monstercat Release] [LeVmlVQ9uQI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Wake Up (RIOT VIP) [6aKMPLUMe80].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Wake Up (RIOT VIP) [6aKMPLUMe80].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Wake Up [FwSpKQaksVw].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Wake Up [FwSpKQaksVw].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Watch Over Me (with JT Roach) [8X9QRliSUhI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Watch Over Me (with JT Roach) [8X9QRliSUhI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD  - Ocean Blue (feat. Laura Brehm) [9no-c_Etlgs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD  - Ocean Blue (feat. Laura Brehm) [9no-c_Etlgs].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD - An Endless Dream [1ZmQdhh2nvQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD - An Endless Dream [1ZmQdhh2nvQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD - Drift Away [3N5uUbha4Yk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD - Drift Away [3N5uUbha4Yk].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD - Everything (feat. Ashdown) [82em9JpGgsw].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD - Everything (feat. Ashdown) [82em9JpGgsw].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD - Hang Up (feat. Savoi) [Monstercat Release] [WpPpuqieuSg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD - Hang Up (feat. Savoi) [Monstercat Release] [WpPpuqieuSg].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD - Razor Leaf [Heroic] [ofCY5Sfgvbo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD - Razor Leaf [Heroic] [ofCY5Sfgvbo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD - Rooms [SZGZpRXI1Js].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD - Rooms [SZGZpRXI1Js].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/WRLD x Savoi - Hideaway [9e4o88pWATo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/WRLD x Savoi - Hideaway [9e4o88pWATo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - Blue Shadows [Monstercat NL Remake] [C0772KQPyGI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - Blue Shadows [Monstercat NL Remake] [C0772KQPyGI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - Code Blood [Monstercat NL Remake] [4y1Rt_vzs2g].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - Code Blood [Monstercat NL Remake] [4y1Rt_vzs2g].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - Discarded [Monstercat LP Release] [Fi0R0leU4Ag].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - Discarded [Monstercat LP Release] [Fi0R0leU4Ag].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - From Dust [Monstercat NL Remake] [-xbWa-Is9os].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - From Dust [Monstercat NL Remake] [-xbWa-Is9os].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - Human Error [Monstercat NL Remake] [gu8e4ZBRHQE].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - Human Error [Monstercat NL Remake] [gu8e4ZBRHQE].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - Interluden [Monstercat NL Remake] [wOZBMYqixZQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - Interluden [Monstercat NL Remake] [wOZBMYqixZQ].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - Only Now [Monstercat NL Remake] [rHCxdgOpo8U].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - Only Now [Monstercat NL Remake] [rHCxdgOpo8U].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - Particles [Monstercat NL Remake] [1bBqJBv30VI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - Particles [Monstercat NL Remake] [1bBqJBv30VI].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - The Darkness [Monstercat Release] [24YtJSdkF9w].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - The Darkness [Monstercat Release] [24YtJSdkF9w].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - To Dust [Monstercat NL Remake] [_KIzTcu45as].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - To Dust [Monstercat NL Remake] [_KIzTcu45as].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Xilent - You Rise [Monstercat Release] [Ht142FXjA40].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Xilent - You Rise [Monstercat Release] [Ht142FXjA40].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'new_song/Your Spell [2ySG0NsOiw8].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'new_song/Your Spell [2ySG0NsOiw8].opus' as it's not a positive integer

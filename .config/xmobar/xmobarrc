@@ -8,6 +8,7 @@ Config {
                            ] 
    , bgColor =      "#282a36"
    , fgColor =      "#f8f8f2"
+   , alpha   =      200
    , position =     Top
 
    -- layout

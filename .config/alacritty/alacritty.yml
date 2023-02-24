@@ -421,6 +421,8 @@ schemes:
       magenta: '#ff46b0'
       cyan:    '#59dffc'
       white:   '#e6e6d1'
+    transparent_background_colors: true
+
 
   ### Gruvbox dark ###
   GruvboxDark: &GruvboxDark

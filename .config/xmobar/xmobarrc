@@ -14,7 +14,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " %XMonadLog% }{  %mpd%  |  <box type=Bottom width=2 mb=2 color=#8be9fd><fc=#8be9fd>%volicon% %pulsevol%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#f1fa8c><fc=#f1fa8c>%cpu%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ff5555><fc=#ff5555>%memory%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#caa9fa><fc=#caa9fa>%date%</fc></box>  | "
+   , template = " %XMonadLog% }{  <box type=Bottom width=2 mb=2 color=#50fa7b><fc=#50fa7b>%mpd%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#8be9fd><fc=#8be9fd>%volicon% %pulsevol%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#f1fa8c><fc=#f1fa8c>%cpu%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ff5555><fc=#ff5555>%memory%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#bd93f9><fc=#bd93f9>%date%</fc></box>  | "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start

@@ -13,6 +13,8 @@ import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
 
+import XMonad.Layout.Spacing
+
 import XMonad.Util.SpawnOnce
 import XMonad.Util.Loggers
 
@@ -142,7 +144,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 ------------------------------------------------------------------------
 -- LAYOUTS
 --
-myLayout = avoidStruts (tiled ||| Mirror tiled ||| Full)
+myLayout = avoidStruts $ spacing 8 (tiled ||| Mirror tiled ||| Full)
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
@@ -211,6 +213,7 @@ myStartupHook = return ()
 -- MAIN FUNCTION
 --
 -- Run xmonad with the settings you specify. No need to modify this.
+main :: IO()
 main = xmonad 
 	$ docks 
 	$ withEasySB (statusBarProp "" (pure myXmobarPP)) defToggleStrutsKey

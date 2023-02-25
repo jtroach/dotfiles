@@ -1,3 +1,8 @@
+# default programs
+export EDITOR="nvim"
+export TERMINAL="alacritty"
+export BROWSER="librewolf"
+
 # XDG Directories
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config" 

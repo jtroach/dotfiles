@@ -1,11 +1,8 @@
 Config { 
 
    -- appearance
-     font = "xft:Ubuntu:weight=bold:pixelsize=11:antialias=true:hinting=true"
-   , additionalFonts = [ "xft:Mononoki:pixelsize=11:antialias=true:hinting=true"
-                           , "xft:Font Awesome 6 Free Solid:pixelsize=12"
-                           , "xft:Font Awesome 6 Brands:pixelsize=12"
-                           ] 
+   font = "Ubuntu Bold 11"
+   , additionalFonts = [ "Mononoki 11" ] 
    , bgColor =      "#282a36"
    , fgColor =      "#f8f8f2"
    , alpha   =      200
@@ -14,7 +11,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " %XMonadLog% }{  <box type=Bottom width=2 mb=2 color=#50fa7b><fc=#50fa7b>%mpd%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#8be9fd><fc=#8be9fd>%volicon% %pulsevol%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#f1fa8c><fc=#f1fa8c>%cpu%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ff5555><fc=#ff5555>%memory%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#bd93f9><fc=#bd93f9>%date%</fc></box>  | "
+   , template = " %XMonadLog% }{  <box type=Bottom width=2 mb=2 color=#50fa7b><fc=#50fa7b>%mpd%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#8be9fd><fc=#8be9fd>%volicon%  %pulsevol%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#bd93f9><fc=#bd93f9>%date%</fc></box>  | "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -28,20 +25,14 @@ Config {
 
    	-- music monitor
   	  Run MPD ["-t",
-           "<composer> <title> (<album>) <track>/<plength> <statei> [<flags>]",
+           "<artist> - <title> <ppos>/<plength> <statei> [<flags>]",
            "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
 
-        -- cpu activity monitor
-	, Run Cpu ["-t", "<fn=2>\xf108</fn>  cpu: (<total>%)"] 20       
-
-        -- memory usage monitor
-	, Run Memory ["-t", "<fn=2>\xf233</fn>  mem: <used>M (<usedratio>%)"] 20
-
         -- battery monitor
-        , Run BatteryP ["BAT0"] ["-t", "<fn=2>\xf242</fn> <acstatus><watts> (<left>%)"] 360
+        , Run BatteryP ["BAT0"] ["-t", "<fn=2>\xf242</fn>  <left>%"] 360
 
         -- time and date indicator 
-        , Run Date "<fn=2>\xf017</fn>  %b %d %Y - (%H:%M) " "date" 50
+        , Run Date "<fn=2>\xf017</fn>  %D - %H:%M " "date" 50
 	
 	-- volume icon
 	, Run Com "echo" ["<fn=2>\xf028</fn>"] "volicon" 3600

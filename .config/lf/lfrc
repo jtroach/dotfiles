@@ -2,7 +2,10 @@
 # Variables
 set shellopts '-eu'
 set hiddenfiles ".*:*.aux:*.log:*.bbl:*.bcf:*.blg:*.run.xml"
-
+set ifs "\n"
+set scrolloff 10
+set period 1
+set autoquit on
 
 # Commands
 cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
@@ -16,6 +19,8 @@ cmd delete ${{
 	[ $ans = "y" ] && rm -rf -- $fx
 }}
 
+cmd bulkrename $vidir
+
 # Mappings
 map <c-n> push :mkdir<space>
 map <c-s> set hidden!
@@ -24,3 +29,4 @@ map O $mimeopen --ask "$f"
 map <enter> shell
 map D delete
 #map s select
+map B bulkrename

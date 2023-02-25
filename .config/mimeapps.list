@@ -1,0 +1,15 @@
+
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+application/x-shellscript=editor.desktop
+image/png=nsxiv.desktop
+image/jpeg=nsxiv.desktop
+image/jpg=nsxiv.desktop
+image/webp=nsxiv.desktop
+image/svg+xml=gimp.desktop
+text/plain=nvim.desktop
+video/mp4=mpv.desktop
+video/x-matroska=mpv.desktop
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+

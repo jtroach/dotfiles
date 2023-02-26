@@ -191,12 +191,10 @@ myLogHook = return ()
 --
 myXmobarPP :: PP
 myXmobarPP = def
-    { ppSep = "  |  "
-    , ppCurrent = xmobarColor color06 "" . wrap
-                ("<box type=Bottom width=2 mb=2 color=" ++ color06 ++ ">") "</box>"
+    { ppSep = " | "
+    , ppCurrent = xmobarColor color06 "" . wrap "{" "}" 
     , ppHidden = xmobarColor color08 ""  
-    , ppVisible = xmobarColor color05 "" . wrap
-                ("<box type=Top width=2 mt=1 color=" ++ color05 ++ ">") "</box>"
+    , ppVisible = xmobarColor color05 "" 
     , ppTitle = xmobarColor color16 "" . shorten 60
     , ppUrgent = xmobarColor color02 "" . wrap "!" "!"
     , ppOrder  = \(ws:l:t) -> [ws,l]++t

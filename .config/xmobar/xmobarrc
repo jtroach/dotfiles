@@ -1,8 +1,7 @@
 Config { 
 
    -- appearance
-   font = "Ubuntu Bold 11"
-   , additionalFonts = [ "Mononoki 11" ] 
+   font = "Mononoki Bold 9" 
    , bgColor =      "#282a36"
    , fgColor =      "#f8f8f2"
    , alpha   =      200
@@ -11,7 +10,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " %XMonadLog% }{  <box type=Bottom width=2 mb=2 color=#50fa7b><fc=#50fa7b>%mpd%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#8be9fd><fc=#8be9fd>%volicon%  %pulsevol%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#ffb86c><fc=#ffb86c>%battery%</fc></box>  |  <box type=Bottom width=2 mb=2 color=#bd93f9><fc=#bd93f9>%date%</fc></box>  | "
+   , template = " %XMonadLog% }{ <fc=#50fa7b>%mpd%</fc>  <fc=#8be9fd>%volicon% %pulsevol%</fc>  <fc=#ffb86c>%battery%</fc>  <fc=#bd93f9>%date%</fc> "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -25,17 +24,17 @@ Config {
 
    	-- music monitor
   	  Run MPD ["-t",
-           "<artist> - <title> <ppos>/<plength> <statei> [<flags>]",
+           "\xf001 <artist> - <title> <ppos>/<plength> <statei> [<flags>]",
            "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
 
         -- battery monitor
-        , Run BatteryP ["BAT0"] ["-t", "<fn=2>\xf242</fn>  <left>%"] 360
+        , Run BatteryP ["BAT0"] ["-t", "\xf007e <left>%"] 360
 
         -- time and date indicator 
-        , Run Date "<fn=2>\xf017</fn>  %D - %H:%M " "date" 50
+        , Run Date "\xf017 %D - %H:%M" "date" 50
 	
 	-- volume icon
-	, Run Com "echo" ["<fn=2>\xf028</fn>"] "volicon" 3600
+	, Run Com "echo" ["\xf028"] "volicon" 3600
 
 	-- volume monitor
 	, Run Com ".local/bin/pulsevol" [] "pulsevol" 20

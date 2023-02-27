@@ -4,7 +4,7 @@ Config {
    font = "Mononoki Bold 9" 
    , bgColor =      "#282a36"
    , fgColor =      "#f8f8f2"
-   , alpha   =      200
+   , alpha   =      255
    , position =     Top
 
    -- layout

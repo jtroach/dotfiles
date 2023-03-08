@@ -13,8 +13,6 @@ import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
 
-import XMonad.Layout.Spacing
-
 import XMonad.Util.SpawnOnce
 import XMonad.Util.Loggers
 
@@ -144,7 +142,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 ------------------------------------------------------------------------
 -- LAYOUTS
 --
-myLayout = avoidStruts $ spacing 8 (tiled ||| Mirror tiled ||| Full)
+myLayout = avoidStruts (tiled ||| Mirror tiled ||| Full)
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
@@ -191,13 +189,13 @@ myLogHook = return ()
 --
 myXmobarPP :: PP
 myXmobarPP = def
-    { ppSep = " | "
-    , ppCurrent = xmobarColor color06 "" . wrap "{" "}" 
-    , ppHidden = xmobarColor color08 ""  
-    , ppVisible = xmobarColor color05 "" 
-    , ppTitle = xmobarColor color16 "" . shorten 60
-    , ppUrgent = xmobarColor color02 "" . wrap "!" "!"
-    , ppOrder  = \(ws:l:t) -> [ws,l]++t
+    { ppSep = "  "
+    , ppCurrent = xmobarColor color06 "" . wrap "{" "}"
+    , ppHidden = xmobarColor color07 ""
+    , ppHiddenNoWindows = xmobarColor colorFore ""
+    , ppVisible = xmobarColor color06 ""
+    , ppUrgent = wrap "!" "!"
+    , ppOrder  = \(ws:l:t) -> [ws,l]
     }
 
 

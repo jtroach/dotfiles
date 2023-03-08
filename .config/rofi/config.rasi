@@ -1,5 +1,0 @@
-configuration {
-  icon-theme: "Arc";
-  }
-
-@theme "~/.config/rofi/themes/drac_dmenu.rasi"

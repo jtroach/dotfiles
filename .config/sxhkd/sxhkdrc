@@ -2,7 +2,7 @@ super + Return
 	alacritty
 
 super + o
-	rofi -show drun
+	dmenu_run
 
 super + p
 	passmenu

@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Picom (compositor)
-picom &
+#picom &
 # Feh (Wallpaper)
-feh --bg-fill --no-fehbg $HOME/pic/wallpaper/vessels2.jpg &
+#feh --bg-fill --no-fehbg $HOME/pic/wallpaper/sevenlions_echos_coldskin.jpg &
 # Trayer (systray)
 #trayer &
 # NMApplet
@@ -13,3 +13,5 @@ sxhkd &
 #xmobar (both screens)
 xmobar -x 0 &
 xmobar -x 1 &
+# set default cursor
+xsetroot -cursor_name left_ptr &

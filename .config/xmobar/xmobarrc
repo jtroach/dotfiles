@@ -2,15 +2,14 @@ Config {
 
    -- appearance
    font = "Mononoki Bold 9" 
-   , bgColor =      "#282a36"
-   , fgColor =      "#f8f8f2"
-   , alpha   =      255
+   , bgColor =      "black"
+   , fgColor =      "#f8f8f2" 
    , position =     Top
 
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " %XMonadLog% }{ <fc=#50fa7b>%mpd%</fc>  <fc=#8be9fd>%volicon% %pulsevol%</fc>  <fc=#ffb86c>%battery%</fc>  <fc=#bd93f9>%date%</fc> "
+   , template = " %XMonadLog% }{ %volicon% %pulsevol%  %battery%  %date% "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -22,13 +21,8 @@ Config {
 
    , commands = [ 
 
-   	-- music monitor
-  	  Run MPD ["-t",
-           "\xf001 <artist> - <title> <ppos>/<plength> <statei> [<flags>]",
-           "--", "-P", ">>", "-Z", "|", "-S", "><"] 10
-
-        -- battery monitor
-        , Run BatteryP ["BAT0"] ["-t", "\xf007e <left>%"] 360
+   	-- battery monitor
+        Run BatteryP ["BAT0"] ["-t", "\xf007e <left>%"] 360
 
         -- time and date indicator 
         , Run Date "\xf017 %D - %H:%M" "date" 50
